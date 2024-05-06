@@ -18,6 +18,8 @@ Prompt tuning'e gelirsek, herhangi bir parametre değişikliği yapmadan modeli 
 Additive. Yani prompt ile alakalı layerlar ekleyip bunları eğitiyoruz.
 ![maxresdefault](https://github.com/klncgty/PEFT_Fine_Tuning/assets/107580070/fe1470ba-7067-4a11-b6a4-8fff9b7fc7f4)
 
+Gösterildiği gibi, prompt tuning, girdi promtına öğrenilebilir bir parametre ekleyerek, hedef görev için kaybı minimize etmek amacıyla optimize edilir. Bu, modelin belirli bir görev veya veri kümesine uyarlanmasına izin verir, ağırlıklarını güncellemek zorunda kalmaz. Prompt tuning, geleneksel fine-tuning'den daha maliyetsiz ve verimli olabilir, çünkü sadece promt parametresini güncellemek gerekir.
+
 
 ```
 @Misc{peft,
