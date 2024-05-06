@@ -1,8 +1,6 @@
 ## ***PEFT İLE FINE-TUNING :shipit:***
 
-> [!NOTE]
-> Teori için linkler aşağıda.
-
+ 
 Eğitilmiş büyük dil modellerinin tüm parametreleriyle Fine-tuning yapılması büyük maliyettir. 
 PEFT ile modelin tüm parametreleri yerine yalnızca çok az sayıda model parametresine ince ayar yaparak olmasını istediğimiz davranış şeklini modele dikte edebiliriz.
 
@@ -25,7 +23,7 @@ Additive. Yani prompt ile alakalı layerlar ekleyip bunları eğitiyoruz.
 
 Gösterildiği gibi, prompt tuning, girdi promtına öğrenilebilir bir parametre ekleyerek, hedef görev için kaybı minimize etmek amacıyla optimize edilir. Bu, modelin belirli bir görev veya veri kümesine uyarlanmasına izin verir, ağırlıklarını güncellemek zorunda kalmaz. Prompt tuning, geleneksel fine-tuning'den daha maliyetsiz ve verimli olabilir, çünkü sadece promt parametresini güncellemek gerekir.
 
-Referans ve ek döküman için 👇👇👇👇👇
+_Referans ve ek döküman için_ 👇👇👇👇👇
 
 
 ```
@@ -36,6 +34,7 @@ Referans ve ek döküman için 👇👇👇👇👇
   year =         {2022}
 }
 ``` 
+> [!NOTE]
+>Nasıl çalıştığına dair detaylı açıklama ve araştırma-makaleler içeren link:
 
-Nasıl çalıştığına dair detaylı açıklama ve araştırma-makaleler içeren link:
 https://cameronrwolfe.substack.com/p/easily-train-a-specialized-llm-peft
