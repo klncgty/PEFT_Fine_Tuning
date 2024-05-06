@@ -16,6 +16,7 @@ Bu kadar az parametre değişikliği ile büyük işlerin altından kalkması Lo
 
 Prompt tuning'e gelirsek, herhangi bir parametre değişikliği yapmadan modeli fine tune etmeye yarar. Peki nasıl oluyor ince ayar? Modele eklenen yeni katmanlar eğtiilmiş oluyor. Bu yüzden bu tekniğin adı
 Additive. Yani prompt ile alakalı layerlar ekleyip bunları eğitiyoruz.
+![maxresdefault](https://github.com/klncgty/PEFT_Fine_Tuning/assets/107580070/fe1470ba-7067-4a11-b6a4-8fff9b7fc7f4)
 
 
 ```
