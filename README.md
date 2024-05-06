@@ -20,6 +20,8 @@ Additive. Yani prompt ile alakalı layerlar ekleyip bunları eğitiyoruz.
 
 Gösterildiği gibi, prompt tuning, girdi promtına öğrenilebilir bir parametre ekleyerek, hedef görev için kaybı minimize etmek amacıyla optimize edilir. Bu, modelin belirli bir görev veya veri kümesine uyarlanmasına izin verir, ağırlıklarını güncellemek zorunda kalmaz. Prompt tuning, geleneksel fine-tuning'den daha maliyetsiz ve verimli olabilir, çünkü sadece promt parametresini güncellemek gerekir.
 
+Referans ve ek döküman için 👇👇👇👇👇
+
 
 ```
 @Misc{peft,
