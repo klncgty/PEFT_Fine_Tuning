@@ -1,3 +1,8 @@
+## ***PEFT İLE FINE-TUNING :shipit:***
+
+> [!NOTE]
+> Teori için linkler aşağıda.
+
 Eğitilmiş büyük dil modellerinin tüm parametreleriyle Fine-tuning yapılması büyük maliyettir. 
 PEFT ile modelin tüm parametreleri yerine yalnızca çok az sayıda model parametresine ince ayar yaparak olmasını istediğimiz davranış şeklini modele dikte edebiliriz.
 
